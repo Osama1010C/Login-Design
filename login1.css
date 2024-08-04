@@ -1,0 +1,145 @@
+body{
+    background-image: url('5556661.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    background-color: blueviolet;
+    width: 322px;
+    height: 354px;
+    padding: 20px;
+    position: relative;
+    left: 550px;
+    top: 162px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: -28px 24px 112px; 
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.l,.o,.g,.i,.n{
+    transition-duration: .5s;
+}
+.l:hover{
+    color: red;
+    position: relative;
+    bottom: 6px;
+}
+.o:hover{
+    color: green;
+    position: relative;
+    bottom: 6px;
+}
+.g:hover{
+    color: yellow;
+    position: relative;
+    bottom: 6px;
+}
+.i:hover{
+    color: teal;
+    position: relative;
+    bottom: 6px;
+}
+.n:hover{
+    color: rgb(79, 4, 79);
+    position: relative;
+    bottom: 6px;
+}
+.name,.pass,.login{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blueviolet;
+    outline-style: none;
+}
+.name,.pass{
+    box-shadow: 0px 5px 4px;
+    position: relative;
+    left: 10px;
+    transition-duration: 0.2s;
+}
+.iconU{
+    position: absolute;
+    left: 12px;
+    top: 142px;  
+}
+.iconP{
+    position: relative;
+    left: -8px;
+    top: -39px;
+}
+.fa-user{
+    color: white;  
+}
+.fa-lock{
+    color: white;
+}
+.name:hover{
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(79, 4, 79);
+    cursor: auto;
+}
+.pass:hover{
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(79, 4, 79);  
+    cursor: auto;  
+}
+.name::placeholder{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left: 3px;
+}
+.pass::placeholder{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left: 3px;
+}
+.login{
+    position: relative;
+    left: -2px;
+    top: -12px;
+    background-color: brown;
+    color: white;
+    border-color: blueviolet;
+    width: 311px;
+    height: 41px;
+    box-shadow: 0px 3px 0px 0px;
+    transition-duration: 0.5s;
+}
+.login:hover{
+    background-color: rgb(44, 159, 44);
+    cursor: pointer; 
+}
+.checkbox{
+    accent-color: #f152ff;
+}
+.rem{
+    position: relative;
+    bottom: 16px;
+    left: 7px;
+    color: white;
+}
+.not{
+    top: -3px;
+    position: relative;
+    left: 48px;
+    color: white;
+    width: 220px;
+}
+.reg{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+.reg:hover{
+    text-decoration: underline;
+    color: rgb(255, 2, 2); 
+}
